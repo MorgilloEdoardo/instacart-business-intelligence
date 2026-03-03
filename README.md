@@ -1,9 +1,13 @@
-🛒 Instacart Business Intelligence Analysis
+🛒 Instacart Data & Business Intelligence Case Study
 📌 Project Overview
 
 End-to-end analysis of Instacart transactional data aimed at understanding customer behavior, product performance, and department contribution to overall sales.
 
-The project combines data cleaning in Python with interactive dashboard development in Power BI.
+The project combines data cleaning in Python with interactive dashboard development in Power BI to simulate a real-world business decision-support scenario.
+
+🏠 Dashboard Home
+
+Main navigation page providing structured access to all analytical sections and simulating a business-ready dashboard experience.
 
 🎯 Business Objectives
 
@@ -23,26 +27,38 @@ Handling missing values
 
 Removing duplicates
 
-Data type corrections
+Data type standardization
 
-Validation checks
+Basic validation checks
 
 Notebook available in:
 
 01_data_cleaning.ipynb
 
-📊 Dashboard Structure
+📊 Dashboard Sections
 1️⃣ Executive Overview
+
+High-level KPIs including Total Orders, Total Customers, Average Basket Size, and Reorder Rate.
 
 2️⃣ Product Analysis
 
+Top products by order volume and reorder rate comparison to identify recurring purchasing patterns.
+
 3️⃣ Department Analysis
+
+Department sales contribution and reorder performance across categories.
 
 4️⃣ Customer Analysis
 
+Customer distribution by order frequency, returning customer rate, and active users by day of week.
+
 5️⃣ Basket & Behaviour Analysis
 
+Basket size distribution, reorder rate by basket size, and add-to-cart position patterns.
+
 6️⃣ Recommendations
+
+Strategic recommendations based on analytical findings.
 
 💡 Key Insights
 
