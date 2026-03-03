@@ -1,94 +1,112 @@
-🛒 Instacart Data & Business Intelligence Case Study
-📌 Project Overview
+# 🛒 Instacart Data & Business Intelligence Analysis
+
+---
+
+## 📌 Project Overview
 
 End-to-end analysis of Instacart transactional data aimed at understanding customer behavior, product performance, and department contribution to overall sales.
 
-The project combines data cleaning in Python with interactive dashboard development in Power BI to simulate a real-world business decision-support scenario.
+The project combines data cleaning in Python with interactive dashboard development in Power BI.
 
-🏠 Dashboard Home
+---
+
+## 🏠 Dashboard Home
 
 Main navigation page providing structured access to all analytical sections and simulating a business-ready dashboard experience.
 
-🎯 Business Objectives
+![Dashboard Home](images/00_home.png)
 
-Analyze order trends and peak purchasing times
+---
 
-Identify top-performing products and reorder behavior
+## 🎯 Business Objectives
 
-Evaluate department sales contribution
+- Analyze order trends and peak purchasing times  
+- Identify top-performing products and reorder behavior  
+- Evaluate department sales contribution  
+- Understand customer retention and basket patterns  
 
-Understand customer retention and basket patterns
+---
 
-🧹 Data Cleaning
+## 🧹 Data Cleaning
 
 Data preparation was performed using Python (Pandas), including:
 
-Handling missing values
-
-Removing duplicates
-
-Data type standardization
-
-Basic validation checks
+- Handling missing values  
+- Removing duplicates  
+- Data type corrections  
+- Validation checks  
 
 Notebook available in:
 
-01_data_cleaning.ipynb
+`01_data_cleaning.ipynb`
 
-📊 Dashboard Sections
-1️⃣ Executive Overview
+---
 
-High-level KPIs including Total Orders, Total Customers, Average Basket Size, and Reorder Rate.
+## 📊 Dashboard Structure
 
-2️⃣ Product Analysis
+### 1️⃣ Executive Overview
 
-Top products by order volume and reorder rate comparison to identify recurring purchasing patterns.
+![Executive Overview](images/01_executive_overview.png)
 
-3️⃣ Department Analysis
+---
 
-Department sales contribution and reorder performance across categories.
+### 2️⃣ Product Analysis
 
-4️⃣ Customer Analysis
+![Product Analysis](images/02_product_analysis.png)
 
-Customer distribution by order frequency, returning customer rate, and active users by day of week.
+---
 
-5️⃣ Basket & Behaviour Analysis
+### 3️⃣ Department Analysis
 
-Basket size distribution, reorder rate by basket size, and add-to-cart position patterns.
+![Department Analysis](images/03_department_analysis.png)
 
-6️⃣ Recommendations
+---
 
-Strategic recommendations based on analytical findings.
+### 4️⃣ Customer Analysis
 
-💡 Key Insights
+![Customer Analysis](images/04_customer_analysis.png)
 
-73% returning customer rate indicates strong retention
+---
 
-Produce department contributes ~29% of total sales
+### 5️⃣ Basket & Behaviour Analysis
 
-Peak order time: 9AM–4PM
+![Basket Analysis](images/05_basket_analysis.png)
 
-Smaller baskets show slightly higher reorder consistency
+---
 
-🛠 Tools Used
+### 6️⃣ Recommendations
 
-Python (Pandas, NumPy)
+![Recommendations](images/06_recommendations.png)
 
-Power BI
+---
 
-DAX
+## 💡 Key Insights
 
-📈 Professional Value Demonstrated
+- 73% returning customer rate indicates strong retention  
+- Produce department contributes ~29% of total sales  
+- Peak order time: 9AM–4PM  
+- Smaller baskets show slightly higher reorder consistency  
 
-End-to-end data cleaning workflow
+---
 
-KPI-driven dashboard development
+## 🛠 Tools Used
 
-Business insight generation
+- Python (Pandas, NumPy)  
+- Power BI  
+- DAX  
 
-Translation of data into strategic recommendations
+---
 
-📎 Note
+## 📈 Professional Value Demonstrated
 
-The Power BI (.pbix) file is not uploaded due to GitHub size limitations.
+- End-to-end data cleaning workflow  
+- KPI-driven dashboard development  
+- Business insight generation  
+- Translation of data into strategic recommendations  
+
+---
+
+## 📎 Note
+
+The Power BI (.pbix) file is not uploaded due to GitHub size limitations.  
 Dashboard previews and insights are provided above.
