@@ -52,7 +52,6 @@ Notebook available in:
 
 ### 2️⃣ Product Analysis
 
-![Product Analysis](images/02_product_analysis.png)
 
 ---
 
